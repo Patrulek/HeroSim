@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="tilesetnew" tilewidth="16" tileheight="16">
+  <image source="tilesetnew.png" width="192" height="160"/>
+ </tileset>
+ <tileset firstgid="121" name="drogi" tilewidth="16" tileheight="16">
+  <image source="drogi.png" width="128" height="16"/>
+ </tileset>
+ <tileset firstgid="129" name="tree1" tilewidth="32" tileheight="48">
+  <image source="assets/tree1.png" width="32" height="48"/>
+ </tileset>
+ <tileset firstgid="130" name="tree2" tilewidth="48" tileheight="48">
+  <image source="assets/tree2.png" width="48" height="48"/>
+ </tileset>
+ <tileset firstgid="131" name="bush1" tilewidth="24" tileheight="8">
+  <image source="assets/bush1.png" width="24" height="8"/>
+ </tileset>
+ <layer name="Background" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="Paths" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztnMt2gkAQBf3tPDT59MhCe5EEZaanp5Cqc1ghcO/UkQQcOJ2kh4/rcpkdQu4sPt5mh5A7+mChDxZkH5/Fy/eD9RU5lwyXxm1H8168fF2X88r6ipyPMvy1kL9TPRB6tWQg5B4BoZc+AkIvfQSEXvoICL30ERB66SMg9NJHQOilj4DQSx8BoZc+AkIvQgYKhLEgZKBAGAtCBgqEsSBkoEAYC0IGCoSxIGSgQBgL/98NCL30ERB66SMg9NJHQOilj4DQSx8BoZc+AkIvfQS3XtXzInvnJ65ts2eq50NmzU/8b5tz7vAcEs9XLPTBQh8s9MFCHyz0wUIfLPTBQh8s9MFCHywcWxYzfcy8r73lPQA97wN4dt8t99uzmX1ve+s97pYeLffPn/38qzLyHOHfg+3og4U+WOiDhT5Y6IOFPljog4U+WOiDhT5Y6IOFPljog4U+WOiDhT5YkHy0/N78apB8+N52lg/Kvmey1zHTR/6+e46tj/x96+M3+mChjzks+bPeiZA1//O2vrXP3n30ztFsWdb2vcwnPfL3g5b/6OcrWn59sNAHC32w0AeLvfqouBYYeeyM59Myr116qXgubeSxM59ny7h2IeD5igUxvz5Y6IOFPljog4U+WOiDhT5YEDNVQexOzFQFsTsxUxXE7sRMVRC7EzNVQexOzFQFsTsxUxXE7sRMVRB/vxmd6QdpP/1F
+  </data>
+ </layer>
+ <objectgroup name="Towns" width="100" height="100">
+  <object x="208" y="48" width="96" height="96"/>
+  <object x="880" y="48" width="96" height="96"/>
+  <object x="1456" y="272" width="96" height="96"/>
+  <object x="1456" y="704" width="96" height="96"/>
+  <object x="880" y="704" width="96" height="96"/>
+  <object x="1184" y="1008" width="96" height="96"/>
+  <object x="752" y="1264" width="96" height="96"/>
+  <object x="256" y="1264" width="96" height="96"/>
+  <object x="1424" y="1456" width="96" height="96"/>
+  <object x="80" y="704" width="96" height="96"/>
+ </objectgroup>
+ <objectgroup color="#a40000" name="GraphPoints" width="100" height="100">
+  <object name="0" x="272" y="80" width="32" height="32"/>
+  <object name="1" x="752" y="80" width="32" height="32"/>
+  <object name="2" x="880" y="80" width="32" height="32"/>
+  <object name="3" x="944" y="80" width="32" height="32"/>
+  <object name="4" x="752" y="496" width="32" height="32"/>
+  <object name="5" x="1280" y="80" width="32" height="32"/>
+  <object name="6" x="1488" y="80" width="32" height="32"/>
+  <object name="7" x="1488" y="272" width="32" height="32"/>
+  <object name="8" x="1280" y="496" width="32" height="32"/>
+  <object name="9" x="1488" y="496" width="32" height="32"/>
+  <object name="10" x="1488" y="336" width="32" height="32"/>
+  <object name="11" x="1488" y="704" width="32" height="32"/>
+  <object name="12" x="1456" y="736" width="32" height="32"/>
+  <object name="13" x="1280" y="736" width="32" height="32"/>
+  <object name="14" x="1088" y="736" width="32" height="32"/>
+  <object name="15" x="944" y="736" width="32" height="32"/>
+  <object name="16" x="880" y="736" width="32" height="32"/>
+  <object name="17" x="720" y="736" width="32" height="32"/>
+  <object name="18" x="144" y="736" width="32" height="32"/>
+  <object name="19" x="720" y="1168" width="32" height="32"/>
+  <object name="20" x="624" y="1168" width="32" height="32"/>
+  <object name="21" x="624" y="1296" width="32" height="32"/>
+  <object name="22" x="320" y="1296" width="32" height="32"/>
+  <object name="23" x="752" y="1296" width="32" height="32"/>
+  <object name="24" x="816" y="1296" width="32" height="32"/>
+  <object name="25" x="1216" y="1296" width="32" height="32"/>
+  <object name="26" x="1216" y="1168" width="32" height="32"/>
+  <object name="27" x="1088" y="1168" width="32" height="32"/>
+  <object name="28" x="1216" y="1072" width="32" height="32"/>
+  <object name="29" x="1248" y="1040" width="32" height="32"/>
+  <object name="30" x="1456" y="1040" width="32" height="32"/>
+  <object name="31" x="1456" y="1296" width="32" height="32"/>
+  <object name="32" x="1456" y="1456" width="32" height="32"/>
+  <object name="33" x="1216" y="1568" width="32" height="32"/>
+  <object name="34" x="624" y="1568" width="32" height="32"/>
+  <object name="35" x="1568" y="496" width="32" height="32"/>
+  <object name="36" x="1280" y="0" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup color="#0794ff" name="Crossroads" width="100" height="100">
+  <object name="0" x="752" y="80" width="32" height="32"/>
+  <object name="1" x="1280" y="80" width="32" height="32"/>
+  <object name="2" x="1280" y="496" width="32" height="32"/>
+  <object name="3" x="1488" y="496" width="32" height="32"/>
+  <object name="4" x="1280" y="736" width="32" height="32"/>
+  <object name="5" x="1088" y="736" width="32" height="32"/>
+  <object name="6" x="720" y="736" width="32" height="32"/>
+  <object name="7" x="720" y="1168" width="32" height="32"/>
+  <object name="8" x="624" y="1296" width="32" height="32"/>
+  <object name="9" x="1088" y="1168" width="32" height="32"/>
+  <object name="10" x="1216" y="1168" width="32" height="32"/>
+  <object name="11" x="1216" y="1296" width="32" height="32"/>
+  <object name="12" x="1456" y="1296" width="32" height="32"/>
+  <object name="13" x="1280" y="0" width="32" height="32"/>
+  <object name="14" x="1568" y="496" width="32" height="32"/>
+  <object name="15" x="1216" y="1568" width="32" height="32"/>
+  <object name="16" x="624" y="1568" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Objects" width="100" height="100">
+  <object gid="129" x="64" y="272"/>
+  <object gid="129" x="128" y="208"/>
+  <object gid="129" x="256" y="224"/>
+  <object gid="129" x="464" y="240"/>
+  <object gid="129" x="560" y="208"/>
+  <object gid="129" x="672" y="304"/>
+  <object gid="129" x="624" y="512"/>
+  <object gid="129" x="544" y="368"/>
+  <object gid="129" x="512" y="304"/>
+  <object gid="129" x="512" y="528"/>
+  <object gid="129" x="320" y="384"/>
+  <object gid="129" x="144" y="336"/>
+  <object gid="129" x="64" y="496"/>
+  <object gid="129" x="160" y="592"/>
+  <object gid="129" x="256" y="432"/>
+  <object gid="129" x="256" y="304"/>
+  <object gid="129" x="400" y="336"/>
+  <object gid="129" x="432" y="448"/>
+  <object gid="129" x="352" y="560"/>
+  <object gid="129" x="16" y="144"/>
+  <object gid="129" x="944" y="224"/>
+  <object gid="129" x="880" y="304"/>
+  <object gid="129" x="816" y="416"/>
+  <object gid="129" x="1136" y="192"/>
+  <object gid="129" x="1216" y="304"/>
+  <object gid="129" x="1168" y="384"/>
+  <object gid="129" x="1024" y="480"/>
+  <object gid="129" x="1392" y="176"/>
+  <object gid="129" x="1376" y="288"/>
+  <object gid="129" x="1376" y="448"/>
+  <object gid="129" x="1552" y="144"/>
+  <object gid="129" x="1568" y="320"/>
+  <object gid="129" x="1536" y="464"/>
+  <object gid="129" x="1536" y="624"/>
+  <object gid="129" x="1360" y="640"/>
+  <object gid="129" x="1424" y="576"/>
+  <object gid="129" x="992" y="592"/>
+  <object gid="129" x="1168" y="592"/>
+  <object gid="129" x="1552" y="880"/>
+  <object gid="129" x="1328" y="832"/>
+  <object gid="129" x="816" y="896"/>
+  <object gid="129" x="992" y="896"/>
+  <object gid="129" x="864" y="1088"/>
+  <object gid="129" x="592" y="816"/>
+  <object gid="129" x="560" y="896"/>
+  <object gid="129" x="656" y="896"/>
+  <object gid="129" x="544" y="976"/>
+  <object gid="129" x="480" y="1024"/>
+  <object gid="129" x="448" y="1136"/>
+  <object gid="129" x="416" y="1216"/>
+  <object gid="129" x="560" y="1040"/>
+  <object gid="129" x="528" y="1200"/>
+  <object gid="129" x="320" y="1248"/>
+  <object gid="129" x="160" y="1280"/>
+  <object gid="129" x="16" y="1216"/>
+  <object gid="129" x="0" y="1040"/>
+  <object gid="129" x="32" y="944"/>
+  <object gid="129" x="48" y="848"/>
+  <object gid="129" x="208" y="832"/>
+  <object gid="129" x="288" y="832"/>
+  <object gid="129" x="32" y="1472"/>
+  <object gid="129" x="176" y="1488"/>
+  <object gid="129" x="64" y="1552"/>
+  <object gid="129" x="192" y="1584"/>
+  <object gid="129" x="320" y="1584"/>
+  <object gid="129" x="560" y="1568"/>
+  <object gid="129" x="400" y="1520"/>
+  <object gid="129" x="704" y="1536"/>
+  <object gid="129" x="848" y="1536"/>
+  <object gid="129" x="800" y="1600"/>
+  <object gid="129" x="976" y="1536"/>
+  <object gid="129" x="1104" y="1488"/>
+  <object gid="129" x="1152" y="1584"/>
+  <object gid="129" x="1056" y="1584"/>
+  <object gid="129" x="1312" y="1504"/>
+  <object gid="129" x="1376" y="1600"/>
+  <object gid="129" x="1392" y="1424"/>
+  <object gid="129" x="1536" y="1328"/>
+  <object gid="129" x="1552" y="1536"/>
+  <object gid="129" x="1552" y="1136"/>
+  <object gid="129" x="1536" y="1056"/>
+  <object gid="129" x="1360" y="1008"/>
+  <object gid="129" x="1184" y="992"/>
+  <object gid="129" x="1360" y="1152"/>
+  <object gid="130" x="432" y="688"/>
+  <object gid="130" x="368" y="656"/>
+  <object gid="130" x="272" y="624"/>
+  <object gid="130" x="224" y="688"/>
+  <object gid="130" x="80" y="656"/>
+  <object gid="130" x="128" y="496"/>
+  <object gid="130" x="224" y="544"/>
+  <object gid="130" x="320" y="464"/>
+  <object gid="130" x="432" y="592"/>
+  <object gid="130" x="640" y="592"/>
+  <object gid="130" x="560" y="608"/>
+  <object gid="130" x="480" y="432"/>
+  <object gid="130" x="608" y="432"/>
+  <object gid="130" x="752" y="592"/>
+  <object gid="130" x="656" y="368"/>
+  <object gid="130" x="624" y="208"/>
+  <object gid="130" x="672" y="176"/>
+  <object gid="130" x="448" y="176"/>
+  <object gid="130" x="320" y="256"/>
+  <object gid="130" x="32" y="384"/>
+  <object gid="130" x="128" y="416"/>
+  <object gid="130" x="176" y="256"/>
+  <object gid="130" x="112" y="128"/>
+  <object gid="130" x="0" y="560"/>
+  <object gid="130" x="0" y="704"/>
+  <object gid="130" x="0" y="800"/>
+  <object gid="130" x="0" y="976"/>
+  <object gid="130" x="32" y="896"/>
+  <object gid="130" x="0" y="1120"/>
+  <object gid="130" x="48" y="1200"/>
+  <object gid="130" x="64" y="1296"/>
+  <object gid="130" x="224" y="1248"/>
+  <object gid="130" x="384" y="1280"/>
+  <object gid="130" x="496" y="1264"/>
+  <object gid="130" x="624" y="1136"/>
+  <object gid="130" x="512" y="1136"/>
+  <object gid="130" x="624" y="1040"/>
+  <object gid="130" x="608" y="960"/>
+  <object gid="130" x="800" y="976"/>
+  <object gid="130" x="896" y="864"/>
+  <object gid="130" x="800" y="832"/>
+  <object gid="130" x="1008" y="832"/>
+  <object gid="130" x="896" y="976"/>
+  <object gid="130" x="1024" y="976"/>
+  <object gid="130" x="1024" y="1120"/>
+  <object gid="130" x="928" y="1136"/>
+  <object gid="130" x="768" y="1152"/>
+  <object gid="130" x="800" y="1056"/>
+  <object gid="130" x="976" y="1040"/>
+  <object gid="130" x="816" y="240"/>
+  <object gid="130" x="432" y="64"/>
+  <object gid="130" x="624" y="64"/>
+  <object gid="130" x="800" y="64"/>
+  <object gid="130" x="1136" y="48"/>
+  <object gid="130" x="1360" y="64"/>
+  <object gid="130" x="1504" y="64"/>
+  <object gid="130" x="1200" y="208"/>
+  <object gid="130" x="1120" y="320"/>
+  <object gid="130" x="1056" y="432"/>
+  <object gid="130" x="1168" y="464"/>
+  <object gid="130" x="1344" y="368"/>
+  <object gid="130" x="1328" y="208"/>
+  <object gid="130" x="1536" y="224"/>
+  <object gid="130" x="1408" y="688"/>
+  <object gid="130" x="1552" y="752"/>
+  <object gid="130" x="1488" y="880"/>
+  <object gid="130" x="1392" y="832"/>
+  <object gid="130" x="1264" y="816"/>
+  <object gid="130" x="1120" y="976"/>
+  <object gid="130" x="1120" y="1136"/>
+  <object gid="130" x="1280" y="992"/>
+  <object gid="130" x="1504" y="1120"/>
+  <object gid="130" x="1280" y="1184"/>
+  <object gid="130" x="1136" y="1264"/>
+  <object gid="130" x="1072" y="1264"/>
+  <object gid="130" x="1008" y="1264"/>
+  <object gid="130" x="944" y="1264"/>
+  <object gid="130" x="880" y="1264"/>
+  <object gid="130" x="704" y="1264"/>
+  <object gid="130" x="656" y="1264"/>
+  <object gid="130" x="768" y="1248"/>
+  <object gid="130" x="816" y="1248"/>
+  <object gid="130" x="912" y="1584"/>
+  <object gid="130" x="1088" y="1520"/>
+  <object gid="130" x="464" y="1584"/>
+  <object gid="130" x="496" y="1536"/>
+  <object gid="130" x="304" y="1536"/>
+  <object gid="130" x="384" y="1376"/>
+  <object gid="130" x="464" y="1376"/>
+  <object gid="130" x="928" y="1376"/>
+  <object gid="131" x="668" y="370"/>
+  <object gid="131" x="620" y="435"/>
+  <object gid="131" x="489" y="434"/>
+  <object gid="131" x="546" y="370"/>
+  <object gid="131" x="673" y="306"/>
+  <object gid="131" x="828" y="242"/>
+  <object gid="131" x="946" y="226"/>
+  <object gid="131" x="1180" y="467"/>
+  <object gid="131" x="1170" y="387"/>
+  <object gid="131" x="1185" y="382"/>
+  <object gid="131" x="1129" y="381"/>
+  <object gid="131" x="1116" y="421"/>
+  <object gid="131" x="1087" y="468"/>
+  <object gid="131" x="1222" y="395"/>
+  <object gid="131" x="1240" y="335"/>
+  <object gid="131" x="1152" y="238"/>
+  <object gid="131" x="1214" y="62"/>
+  <object gid="131" x="1147" y="53"/>
+  <object gid="131" x="1384" y="67"/>
+  <object gid="131" x="1355" y="64"/>
+  <object gid="131" x="1526" y="69"/>
+  <object gid="131" x="1568" y="37"/>
+  <object gid="131" x="1467" y="27"/>
+  <object gid="131" x="1566" y="163"/>
+  <object gid="131" x="1558" y="259"/>
+  <object gid="131" x="1559" y="357"/>
+  <object gid="131" x="1536" y="399"/>
+  <object gid="131" x="1574" y="460"/>
+  <object gid="131" x="1425" y="431"/>
+  <object gid="131" x="1416" y="306"/>
+  <object gid="131" x="1424" y="204"/>
+  <object gid="131" x="1224" y="592"/>
+  <object gid="131" x="1043" y="584"/>
+  <object gid="131" x="1339" y="564"/>
+  <object gid="131" x="1333" y="688"/>
+  <object gid="131" x="1428" y="621"/>
+  <object gid="131" x="1544" y="670"/>
+  <object gid="131" x="1547" y="573"/>
+  <object gid="131" x="1570" y="816"/>
+  <object gid="131" x="937" y="887"/>
+  <object gid="131" x="1000" y="901"/>
+  <object gid="131" x="1032" y="978"/>
+  <object gid="131" x="981" y="1044"/>
+  <object gid="131" x="907" y="980"/>
+  <object gid="131" x="812" y="979"/>
+  <object gid="131" x="807" y="1059"/>
+  <object gid="131" x="778" y="1153"/>
+  <object gid="131" x="865" y="1091"/>
+  <object gid="131" x="939" y="1137"/>
+  <object gid="131" x="1366" y="1157"/>
+  <object gid="131" x="1408" y="1124"/>
+  <object gid="131" x="1345" y="1114"/>
+  <object gid="131" x="1298" y="1120"/>
+  <object gid="131" x="1554" y="1142"/>
+  <object gid="131" x="1537" y="1332"/>
+  <object gid="131" x="1374" y="1472"/>
+  <object gid="131" x="1293" y="1567"/>
+  <object gid="131" x="1164" y="1497"/>
+  <object gid="131" x="1037" y="1514"/>
+  <object gid="131" x="920" y="1501"/>
+  <object gid="131" x="744" y="1542"/>
+  <object gid="131" x="720" y="1395"/>
+  <object gid="131" x="744" y="1394"/>
+  <object gid="131" x="658" y="1394"/>
+  <object gid="131" x="681" y="1394"/>
+  <object gid="131" x="701" y="1394"/>
+  <object gid="131" x="769" y="1394"/>
+  <object gid="131" x="790" y="1394"/>
+  <object gid="131" x="813" y="1394"/>
+  <object gid="131" x="832" y="1395"/>
+  <object gid="131" x="853" y="1395"/>
+  <object gid="131" x="876" y="1395"/>
+  <object gid="131" x="895" y="1395"/>
+  <object gid="131" x="918" y="1394"/>
+  <object gid="131" x="941" y="1394"/>
+  <object gid="131" x="964" y="1394"/>
+  <object gid="131" x="986" y="1397"/>
+  <object gid="131" x="249" y="1532"/>
+  <object gid="131" x="315" y="1535"/>
+  <object gid="131" x="313" y="1540"/>
+  <object gid="131" x="403" y="1525"/>
+  <object gid="131" x="510" y="1539"/>
+  <object gid="131" x="565" y="1575"/>
+  <object gid="131" x="473" y="1588"/>
+  <object gid="131" x="179" y="1493"/>
+  <object gid="131" x="135" y="1442"/>
+  <object gid="131" x="131" y="1549"/>
+  <object gid="131" x="136" y="1284"/>
+  <object gid="131" x="12" y="1277"/>
+  <object gid="131" x="468" y="1172"/>
+  <object gid="131" x="680" y="961"/>
+  <object gid="131" x="560" y="1068"/>
+  <object gid="131" x="321" y="693"/>
+  <object gid="131" x="80" y="572"/>
+  <object gid="131" x="209" y="347"/>
+  <object gid="131" x="378" y="166"/>
+  <object gid="131" x="92" y="43"/>
+  <object gid="131" x="3" y="216"/>
+  <object gid="131" x="315" y="30"/>
+  <object gid="131" x="552" y="37"/>
+  <object gid="131" x="750" y="26"/>
+  <object gid="131" x="882" y="309"/>
+  <object gid="131" x="830" y="492"/>
+  <object gid="131" x="943" y="492"/>
+  <object gid="131" x="943" y="546"/>
+  <object gid="131" x="822" y="537"/>
+  <object gid="131" x="675" y="798"/>
+  <object gid="131" x="617" y="868"/>
+  <object gid="131" x="512" y="933"/>
+  <object gid="131" x="410" y="1138"/>
+ </objectgroup>
+</map>

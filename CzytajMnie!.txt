@@ -1,0 +1,24 @@
+Autor: Patryk Lewandowski 117327 I5 Poniedzia³ek 15:10-16:40
+Start: 19 XI 2014
+Koniec: 2 I 2015
+Czas: ~80h pisanie kodu + ~10h przygotowanie i implementacja grafik + ~4h dokumentacja
+Najwiêksze trudnoœci: synchronizacja w¹tków, algorytm wyszukiwania œcie¿ki dla bohaterów
+Iloœæ kodu: 4500 linii
+
+
+Sterowanie:
+LPM - targetowanie obiektów
+PPM + przesuwanie - poruszanie kamer¹
+Spacja - œledzenie stargetowanego wczeœniej obiektu
+Escape - koniec symulacji
+
+
+O grze:
+Maksymalna liczba cywili - 100
+Maksymalna liczba superbohaterów - maksymalny potencja³ / 100, ale nie wiêcej ni¿ 15
+Maksymalna liczba z³oczyñców - 5
+
+
+Cywile siedz¹ w mieœcie 5-15 sekund, po czym wychodz¹ (jeœli istnieje inne nie zniszczone miasto).
+Z³oczyñcy pojawiaj¹ siê w odstêpach 5-10 sekund, o ile nie wystêpuje ju¿ maksymalna liczba.
+Superbohaterów mo¿na tworzyæ tylko w stolicy i siedz¹ tam dopóki u¿ytkownik ich nie wyœle. Superbohater wybiera losowo z³oczyñcê i za nim pod¹¿a, a¿ do niego nie trafi lub nie zginie po drodze. Jeœli superbohater spotka innego z³oczyñcê ni¿ ten, które sobie wylosowa³ i go zabije, kontynuuje podró¿. W stolicy mo¿na zobaczyæ dodatkowe statystki symulacji. Ka¿dy bohater zdobywa 1-3 ka¿dej umiejêtnoœci po wygranej walce ze z³oczyñc¹. Z³oczyñcy wysysaj¹ czêœæ energii z miast. Dodatkowo jeœli bohater siedzi w stolicy to HP regeneruje mu siê z szybkoœci¹ 1/sek, a z³oczyñcom (o ile nie atakuj¹ miasta) 0.25/sek. Z³oczyñcy zabijaj¹ ka¿dego cywila napotkanego po drodze oraz podczas ataku miasta z szybkoœci¹ 1 cywil/2 sek. Dopóki jakiœ cywil przesiaduje obecnie w mieœcie nie mo¿na zniszczyæ wszystkich Ÿróde³ mocy (zawsze zostaje przynajmniej jedno, dopóki nie zginie ka¿dy cywil). Bohaterowie i z³oczyñcy maj¹ 5% szans na uderzenie krytyczne, które zwiêksza obra¿enia dwukrotnie. Bez wzglêdu na 'endurance' przeciwnika, postaæ zawsze zada przynajmniej 0.1 obra¿eñ. Cywile maj¹ 0.01% szansy na zatrzymanie przy ka¿dym ruchu. Gra dzia³a z prêdkoœci¹ ~50 klatek na sekundê.
